@@ -25,6 +25,10 @@ export default function Footer() {
         <p style={{ fontSize: "0.75rem", color: "var(--color-text-muted)", letterSpacing: "0.05em" }}>
           &copy; {new Date().getFullYear()} {siteConfig.name}. Todos los derechos reservados.
         </p>
+
+        <p style={{ fontSize: "0.65rem", color: "var(--color-text-muted)", letterSpacing: "0.08em", opacity: 0.6 }}>
+          Desarrollado por RedNovaCat Soft
+        </p>
       </div>
     </footer>
   );
