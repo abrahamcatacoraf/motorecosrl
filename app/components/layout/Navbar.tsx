@@ -35,14 +35,14 @@ export default function Navbar() {
     padding: "0.4rem 0.9rem",
     borderRadius: "4px",
     transition: "color 0.2s, background 0.2s",
-    color: active === href ? "var(--color-primary-light)" : "var(--color-text-muted)",
-    background: active === href ? "rgba(192,57,43,0.12)" : "transparent",
-    borderBottom: active === href ? "1px solid var(--color-primary)" : "1px solid transparent",
+    color: active === href ? "#1f5a29" : "#5a8a65",
+    background: active === href ? "rgba(45,122,58,0.1)" : "transparent",
+    borderBottom: active === href ? "1px solid #2d7a3a" : "1px solid transparent",
   });
   const headerStyle: React.CSSProperties = {
     position: "fixed", top: 0, left: 0, right: 0, zIndex: 50,
     transition: "background 0.3s",
-    background: scrolled ? "rgba(15,15,15,0.98)" : "rgba(15,15,15,0.85)",
+    background: scrolled ? "rgba(255,255,255,0.98)" : "rgba(255,255,255,0.85)",
     borderBottom: scrolled ? "1px solid var(--color-border)" : "1px solid transparent",
     backdropFilter: scrolled ? "blur(12px)" : "none",
   };
@@ -54,8 +54,9 @@ export default function Navbar() {
     background: "none", border: "none", cursor: "pointer",
     padding: "0.5rem", color: "var(--color-text)", display: "none",
   };
+
   const mobileMenuStyle: React.CSSProperties = {
-    background: "rgba(15,15,15,0.98)",
+    background: "rgba(255,255,255,0.98)",
     borderTop: "1px solid var(--color-border)",
     padding: "1rem 1.5rem 1.5rem",
   };
@@ -64,14 +65,14 @@ export default function Navbar() {
     fontWeight: 600, letterSpacing: "0.1em", textTransform: "uppercase",
     textDecoration: "none", padding: "0.75rem 0",
     borderBottom: "1px solid var(--color-border)",
-    color: active === href ? "var(--color-primary-light)" : "var(--color-text)",
+    color: active === href ? "#2d7a3a" : "#1a1a1a",
   });
   return (
     <>
       <header style={headerStyle}>
         <div style={innerStyle}>
           <a href="#hero" style={{ display: "flex", alignItems: "center", textDecoration: "none" }}>
-            <Logo size={104} />
+            <Logo size={208} />
           </a>
           <nav className="hidden-mobile" style={{ display: "flex", gap: "0.25rem" }}>
             {navLinks.map((link) => (

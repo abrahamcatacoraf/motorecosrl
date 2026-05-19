@@ -4,7 +4,7 @@ export default function Logo({ size = 32 }: { size?: number }) {
   return (
     <div style={{ width: size, height: size, position: "relative" }}>
       <Image
-        src="/images/logo.png"
+        src="/images/logo_horizontal.png"
         alt="Logo MOTORECO"
         fill
         sizes={`${size}px`}

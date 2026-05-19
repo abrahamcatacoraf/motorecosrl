@@ -1,51 +1,45 @@
 export const siteConfig = {
   name: "MOTORECO S.R.L.",
+  legalName: "MOTORIZACION ECOLOGICA S.R.L.",
   shortName: "MOTORECO",
   description:
     "Estación de servicio con más de 20 años brindando calidad y confianza en La Paz, Bolivia.",
-  address: "[REEMPLAZAR] Dirección real, La Paz, Bolivia",
-  phone: "[REEMPLAZAR] +591 2 XXX-XXXX",
-  whatsapp: "[REEMPLAZAR] +591XXXXXXXXX",
-  email: "[REEMPLAZAR] contacto@motoreco.com",
+  address: "Calle Sucre N° 1597, Zona Central, La Paz, Bolivia",
+  phone: "2202399",
+  whatsapp: "60500338",
+  email: "motoreco@gmail.com",
   hours: {
-    weekdays: "Lunes a Viernes: 6:00 - 22:00",
-    saturday: "Sábado: 7:00 - 21:00",
-    sunday: "Domingo: 8:00 - 20:00",
+    weekdays: "Lunes a Domingo: 24 horas",
+    saturday: "",
+    sunday: "",
   },
   social: {
     facebook: "https://facebook.com/motorecosrl",
     instagram: "https://instagram.com/motorecosrl",
   },
-  mapEmbedUrl: "[REEMPLAZAR] TU_URL_DE_GOOGLE_MAPS_EMBED",
+  mapEmbedUrl: "https://maps.google.com/maps?q=-16.496331587796845%2C-68.12791162187388&z=16&output=embed",
 };
 
 export const services = [
   {
-    id: "combustibles",
+    id: "gasolina-especial",
     icon: "fuel",
-    title: "Combustibles",
+    title: "Gasolina Especial",
     description:
-      "Gasolina especial, super y diésel de la más alta calidad para todo tipo de vehículo.",
+      "Combustible de alto octanaje ideal para motores de baja y media compresión. Rendimiento óptimo y menor consumo para tu vehículo.",
   },
   {
-    id: "lubricantes",
-    icon: "oil",
-    title: "Lubricantes",
+    id: "gasolina-premium",
+    icon: "flame",
+    title: "Gasolina Premium",
     description:
-      "Aceites y lubricantes para motor, transmisión y sistema hidráulico de las mejores marcas.",
+      "Combustible de máxima calidad con aditivos especiales que protegen tu motor, reducen emisiones y mejoran la potencia. Perfecta para motores de alta compresión.",
   },
   {
-    id: "lavado",
-    icon: "wash",
-    title: "Lavado",
+    id: "gnv",
+    icon: "wind",
+    title: "Gas Natural Vehicular (GNV)",
     description:
-      "Servicio de lavado exterior e interior con productos profesionales y personal capacitado.",
-  },
-  {
-    id: "aire-agua",
-    icon: "air",
-    title: "Aire y agua",
-    description:
-      "Inflado de llantas con nitrógeno y suministro de agua destilada para batería.",
+      "Alternativa ecológica y económica. Menor costo por kilómetro, combustión más limpia y menor desgaste del motor. Convierte tu vehículo y empieza a ahorrar.",
   },
 ];
